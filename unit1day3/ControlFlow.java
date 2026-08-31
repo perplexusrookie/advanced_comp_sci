@@ -27,4 +27,19 @@ public class ControlFlow {
         } else if (temperature >= 60) {
             System.out.println("this is nice");
         } else {
-            System.out.println("i nee
+            System.out.println("i need hot chocolate");
+        }
+
+        int batteryPercent = 46;
+
+        if (batteryPercent < 20) {
+            System.out.println("Low Battery");
+        } else {
+            System.out.println("Battery ready");
+        }
+
+
+    }
+
+
+}
